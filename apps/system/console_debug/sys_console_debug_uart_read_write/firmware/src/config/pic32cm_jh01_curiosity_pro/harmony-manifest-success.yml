@@ -4,11 +4,11 @@
 
 
 project: sys_console_debug_uart_read_write
-creation_date: 2020-07-31T18:53:46.187+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2020-08-08T01:03:01.072+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
 mhc_mode: IDE            # [IDE|Standalone|Headless]
 mplabx_version: v5.40        # if MPLAB X plugin only
-plugin_version: v3.5.0        # if MPLAB X plugin only
+plugin_version: v3.5.1        # if MPLAB X plugin only
 compiler: XC32 (2.40)
 
 modules:
