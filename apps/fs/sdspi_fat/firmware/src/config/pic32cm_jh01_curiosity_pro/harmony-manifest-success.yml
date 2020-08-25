@@ -4,17 +4,17 @@
 
 
 project: sdspi_fat
-creation_date: 2020-08-01T00:13:23.103+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2020-08-25T11:42:04.777+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 10
-mhc_mode: IDE            # [IDE|Standalone|Headless]
-mplabx_version: v5.40        # if MPLAB X plugin only
-plugin_version: v3.5.0        # if MPLAB X plugin only
-compiler: XC32 (2.10)
+mhc_mode: Headless            # [IDE|Standalone|Headless]
+mplabx_version: NA        # if MPLAB X plugin only
+plugin_version: NA        # if MPLAB X plugin only
+compiler: xc32
 
 modules:
     - {name: "csp", version: "unknown"}
     - {name: "core", version: "unknown"}
     - {name: "dev_packs", version: "unknown"}
-    - {name: "mhc", version: "unknown"}
-    - {name: "bsp", version: "unknown"}
+    - {name: "mhc", version: "v3.5.0-tc.1"}
+    - {name: "bsp", version: "v3.8.0-rc.1"}
 
