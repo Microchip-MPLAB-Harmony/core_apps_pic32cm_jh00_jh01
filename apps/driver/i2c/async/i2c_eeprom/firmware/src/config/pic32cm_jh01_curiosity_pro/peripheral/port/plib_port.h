@@ -64,15 +64,6 @@
 // Section: Data types and constants
 // *****************************************************************************
 // *****************************************************************************
-
-                        
-/*** Macros for LED pin ***/
-#define LED_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 5)) & 0x01)
-#define LED_PIN                  PORT_PIN_PC05
-                        
-/*** Macros for SWITCH pin ***/
-//#define SWITCH_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 19)) & 0x01)
-#define SWITCH_PIN                  PORT_PIN_PB19
 // *****************************************************************************
 /* PORT Group
 

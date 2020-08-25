@@ -13,8 +13,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3"/>
           <PhysicalPath dnOrder="4">/../../</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">3C13720844166A5D97CF4EAD9DDB9FE2</GeneratedChecksum>
-          <UserChecksum dnOrder="6">3C13720844166A5D97CF4EAD9DDB9FE2</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="1">
           <Type dnOrder="0">SOURCE</Type>
@@ -85,8 +85,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3"/>
           <PhysicalPath dnOrder="4">/../../</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">F81A00E640818EDFB9E79C9BD241AEF4</GeneratedChecksum>
-          <UserChecksum dnOrder="6">F81A00E640818EDFB9E79C9BD241AEF4</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="9">
           <Type dnOrder="0">SOURCE</Type>
@@ -112,8 +112,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/peripheral/nvic/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/nvic/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">AF0033EC1C893C5A9E39C6FF1C08A617</GeneratedChecksum>
-          <UserChecksum dnOrder="6">AF0033EC1C893C5A9E39C6FF1C08A617</UserChecksum>
+          <GeneratedChecksum dnOrder="5">36A499267ED03195815889510B1ADAB7</GeneratedChecksum>
+          <UserChecksum dnOrder="6">36A499267ED03195815889510B1ADAB7</UserChecksum>
         </File>
         <File dnOrder="12">
           <Type dnOrder="0">SOURCE</Type>
@@ -202,8 +202,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3"/>
           <PhysicalPath dnOrder="4">/../../</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">452F7AB915EEA4B1529959D0FF80C3F7</GeneratedChecksum>
-          <UserChecksum dnOrder="6">452F7AB915EEA4B1529959D0FF80C3F7</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="22">
           <Type dnOrder="0">HEADER</Type>
@@ -328,15 +328,15 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">E649F0B2B5B21CF87E66921F28FCC5C7</GeneratedChecksum>
-          <UserChecksum dnOrder="6">E649F0B2B5B21CF87E66921F28FCC5C7</UserChecksum>
+          <GeneratedChecksum dnOrder="5">3805B95CA4F1635F84EE2BC10C5025B1</GeneratedChecksum>
+          <UserChecksum dnOrder="6">3805B95CA4F1635F84EE2BC10C5025B1</UserChecksum>
         </File>
         <File dnOrder="36">
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">device.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">packs/PIC32CM5164JH00100_DFP/</LogicalPath>
-          <PhysicalPath dnOrder="4">/../../packs/PIC32CM5164JH00100_DFP/</PhysicalPath>
+          <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
           <GeneratedChecksum dnOrder="5">3F3FACB7C407AF3053329146CDF1FCC2</GeneratedChecksum>
           <UserChecksum dnOrder="6">3F3FACB7C407AF3053329146CDF1FCC2</UserChecksum>
         </File>
@@ -506,7 +506,7 @@
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">osal.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">/osal/</LogicalPath>
+          <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/osal/</LogicalPath>
           <PhysicalPath dnOrder="4">/osal/</PhysicalPath>
           <GeneratedChecksum dnOrder="5">F0AD88762263B7CB89B02AB4F5876059</GeneratedChecksum>
           <UserChecksum dnOrder="6">F0AD88762263B7CB89B02AB4F5876059</UserChecksum>
@@ -515,7 +515,7 @@
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">osal_definitions.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">/osal/</LogicalPath>
+          <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/osal/</LogicalPath>
           <PhysicalPath dnOrder="4">/osal/</PhysicalPath>
           <GeneratedChecksum dnOrder="5">0AC88C49E4585B606FD5AC6804F0C340</GeneratedChecksum>
           <UserChecksum dnOrder="6">0AC88C49E4585B606FD5AC6804F0C340</UserChecksum>
@@ -524,7 +524,7 @@
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">osal_impl_basic.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">/osal/</LogicalPath>
+          <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/osal/</LogicalPath>
           <PhysicalPath dnOrder="4">/osal/</PhysicalPath>
           <GeneratedChecksum dnOrder="5">B358678B02AC7D3AD6CC80621ECC826D</GeneratedChecksum>
           <UserChecksum dnOrder="6">B358678B02AC7D3AD6CC80621ECC826D</UserChecksum>
@@ -625,8 +625,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/peripheral/port/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/port/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">A5854F4463BD7234E973FE48425DE4AB</GeneratedChecksum>
-          <UserChecksum dnOrder="6">A5854F4463BD7234E973FE48425DE4AB</UserChecksum>
+          <GeneratedChecksum dnOrder="5">ED1B5922EFF11D568E3A0D3F5DB3DD5A</GeneratedChecksum>
+          <UserChecksum dnOrder="6">ED1B5922EFF11D568E3A0D3F5DB3DD5A</UserChecksum>
         </File>
         <File dnOrder="69">
           <Type dnOrder="0">HEADER</Type>
@@ -805,8 +805,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">4B3C3EF8A318908A22B78500515C3288</GeneratedChecksum>
-          <UserChecksum dnOrder="6">4B3C3EF8A318908A22B78500515C3288</UserChecksum>
+          <GeneratedChecksum dnOrder="5"/>
+          <UserChecksum dnOrder="6"/>
         </File>
         <File dnOrder="89">
           <Type dnOrder="0">HEADER</Type>
@@ -817,12 +817,21 @@
           <GeneratedChecksum dnOrder="5">FDE9FA19CE12AA90B43F2A67877ECE45</GeneratedChecksum>
           <UserChecksum dnOrder="6">FDE9FA19CE12AA90B43F2A67877ECE45</UserChecksum>
         </File>
+        <File dnOrder="90">
+          <Type dnOrder="0">LINKER</Type>
+          <Name dnOrder="1">PIC32CM5164JH00100.ld</Name>
+          <Security dnOrder="2">NON_SECURE</Security>
+          <LogicalPath dnOrder="3">config/pic32cm_jh01_curiosity_pro/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
+          <GeneratedChecksum dnOrder="5">9383EB7495EADA931261DE617CB673DD</GeneratedChecksum>
+          <UserChecksum dnOrder="6">9383EB7495EADA931261DE617CB673DD</UserChecksum>
+        </File>
       </Files>
       <Settings dnOrder="1">
         <Setting append="true" category="C32" delimiter=";" dnOrder="0" key="extra-include-directories" security="NON_SECURE" value="../src;../src/config/pic32cm_jh01_curiosity_pro;../src/packs/PIC32CM5164JH00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <Setting category="C32-LD" dnOrder="1" key="heap-size" security="NON_SECURE" value="512"/>
         <Setting category="C32-LD" dnOrder="2" key="no-device-startup-code" security="NON_SECURE" value="true"/>
-        <Setting append="true" category="C32-LD" delimiter=";" dnOrder="3" key="preprocessor-macros" security="NON_SECURE" value=""/>
+        <Setting append="true" category="C32-LD" delimiter=";=" dnOrder="3" key="preprocessor-macros" security="NON_SECURE" value=""/>
         <Setting append="true" category="C32CPP" delimiter=";" dnOrder="4" key="extra-include-directories" security="NON_SECURE" value="../src;../src/config/pic32cm_jh01_curiosity_pro;../src/packs/PIC32CM5164JH00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
       </Settings>
     </Manifest>

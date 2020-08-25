@@ -19,6 +19,11 @@
             <itemPath>../src/config/pic32cm_jh01_curiosity_pro/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32cm_jh01_curiosity_pro/driver/driver_common.h</itemPath>
           </logicalFolder>
+          <logicalFolder name="f5" displayName="osal" projectFiles="true">
+            <itemPath>../src/config/pic32cm_jh01_curiosity_pro/osal/osal.h</itemPath>
+            <itemPath>../src/config/pic32cm_jh01_curiosity_pro/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/pic32cm_jh01_curiosity_pro/osal/osal_impl_basic.h</itemPath>
+          </logicalFolder>
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f5" displayName="clock" projectFiles="true">
               <itemPath>../src/config/pic32cm_jh01_curiosity_pro/peripheral/clock/plib_clock.h</itemPath>
@@ -57,14 +62,10 @@
           <itemPath>../src/config/pic32cm_jh01_curiosity_pro/device_cache.h</itemPath>
           <itemPath>../src/config/pic32cm_jh01_curiosity_pro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/pic32cm_jh01_curiosity_pro/definitions.h</itemPath>
+          <itemPath>../src/config/pic32cm_jh01_curiosity_pro/device.h</itemPath>
           <itemPath>../src/config/pic32cm_jh01_curiosity_pro/user.h</itemPath>
           <itemPath>../src/config/pic32cm_jh01_curiosity_pro/configuration.h</itemPath>
         </logicalFolder>
-      </logicalFolder>
-      <logicalFolder name="f3" displayName="osal" projectFiles="true">
-        <itemPath>../src/config/pic32cm_jh01_curiosity_pro/osal/osal.h</itemPath>
-        <itemPath>../src/config/pic32cm_jh01_curiosity_pro/osal/osal_definitions.h</itemPath>
-        <itemPath>../src/config/pic32cm_jh01_curiosity_pro/osal/osal_impl_basic.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f2" displayName="packs" projectFiles="true">
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
@@ -124,15 +125,29 @@
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164JH00100_DFP/pio/pic32cm5164jh00100.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/PIC32CM5164JH00100_DFP/device.h</itemPath>
           <itemPath>../src/packs/PIC32CM5164JH00100_DFP/pic32cm5164jh00100.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/pic32cm_jh01_curiosity_pro/harmony.prj</itemPath>
+      <itemPath>../src/config/pic32cm_jh01_curiosity_pro/pic32cm_jh01_curiosity_pro.xml</itemPath>
+      <itemPath>../../../../../../../../mhc/../core_apps_pic32cm_jh00_jh01/apps/driver/i2c/async/i2c_eeprom/firmware/src/config/pic32cm_jh01_curiosity_pro/pic32cm_jh01_curiosity_pro.xml</itemPath>
+    </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1"
+                       displayName="pic32cm_jh01_curiosity_pro"
+                       projectFiles="true">
+          <itemPath>../src/config/pic32cm_jh01_curiosity_pro/PIC32CM5164JH00100.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -144,7 +159,7 @@
           <logicalFolder name="f3" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/pic32cm_jh01_curiosity_pro/bsp/bsp.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f5" displayName="driver" projectFiles="true">
+          <logicalFolder name="f4" displayName="driver" projectFiles="true">
             <logicalFolder name="f1" displayName="i2c" projectFiles="true">
               <itemPath>../src/config/pic32cm_jh01_curiosity_pro/driver/i2c/src/drv_i2c.c</itemPath>
               <itemPath>../src/config/pic32cm_jh01_curiosity_pro/driver/i2c/src/drv_i2c_local.h</itemPath>
@@ -175,7 +190,7 @@
           <logicalFolder name="f2" displayName="stdio" projectFiles="true">
             <itemPath>../src/config/pic32cm_jh01_curiosity_pro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f4" displayName="system" projectFiles="true">
+          <logicalFolder name="f5" displayName="system" projectFiles="true">
             <logicalFolder name="f1" displayName="int" projectFiles="true">
               <itemPath>../src/config/pic32cm_jh01_curiosity_pro/system/int/src/sys_int.c</itemPath>
             </logicalFolder>
@@ -190,13 +205,6 @@
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
-    </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="false">
-      <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_jh01_curiosity_pro/harmony.prj</itemPath>
-      <itemPath>../src/config/pic32cm_jh01_curiosity_pro/pic32cm_jh01_curiosity_pro.xml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
