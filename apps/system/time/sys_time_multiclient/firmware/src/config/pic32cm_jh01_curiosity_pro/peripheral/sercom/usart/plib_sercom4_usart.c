@@ -209,6 +209,23 @@ USART_ERROR SERCOM4_USART_ErrorGet( void )
     return errorStatus;
 }
 
+
+void SERCOM4_USART_TransmitterEnable( void )
+{
+    SERCOM4_REGS->USART_INT.SERCOM_CTRLB |= SERCOM_USART_INT_CTRLB_TXEN_Msk;
+	
+	/* Wait for sync */
+    while(SERCOM4_REGS->USART_INT.SERCOM_SYNCBUSY);
+}
+
+void SERCOM4_USART_TransmitterDisable( void )
+{
+    SERCOM4_REGS->USART_INT.SERCOM_CTRLB &= ~SERCOM_USART_INT_CTRLB_TXEN_Msk;
+	
+	/* Wait for sync */
+    while(SERCOM4_REGS->USART_INT.SERCOM_SYNCBUSY);
+}
+
 bool SERCOM4_USART_Write( void *buffer, const size_t size )
 {
     bool writeStatus      = false;
@@ -264,6 +281,22 @@ void SERCOM4_USART_WriteByte( int data )
     while((SERCOM4_REGS->USART_INT.SERCOM_INTFLAG & SERCOM_USART_INT_INTFLAG_DRE_Msk) != SERCOM_USART_INT_INTFLAG_DRE_Msk);
 
     SERCOM4_REGS->USART_INT.SERCOM_DATA = data;
+}
+
+void SERCOM4_USART_ReceiverEnable( void )
+{
+    SERCOM4_REGS->USART_INT.SERCOM_CTRLB |= SERCOM_USART_INT_CTRLB_RXEN_Msk;
+	
+	/* Wait for sync */
+    while(SERCOM4_REGS->USART_INT.SERCOM_SYNCBUSY);
+}
+
+void SERCOM4_USART_ReceiverDisable( void )
+{
+    SERCOM4_REGS->USART_INT.SERCOM_CTRLB &= ~SERCOM_USART_INT_CTRLB_RXEN_Msk;
+	
+	/* Wait for sync */
+    while(SERCOM4_REGS->USART_INT.SERCOM_SYNCBUSY);
 }
 
 bool SERCOM4_USART_Read( void *buffer, const size_t size )
