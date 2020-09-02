@@ -1,5 +1,5 @@
 ---
-parent: Harmony 3 core library application examples for PIC32CM JH01 family
+parent: Harmony 3 driver and system service application examples for PIC32CM JH00/JH01 family
 title: Console Debug System Service using UART
 has_children: false
 has_toc: false

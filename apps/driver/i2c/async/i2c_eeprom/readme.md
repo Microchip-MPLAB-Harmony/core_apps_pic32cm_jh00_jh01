@@ -1,5 +1,5 @@
 ---
-parent: Harmony 3 core library application examples for PIC32CM JH01 family
+parent: Harmony 3 driver and system service application examples for PIC32CM JH00/JH01 family
 title: I2C driver asynchronous - I2C EEPROM
 has_children: false
 has_toc: false
