@@ -30,12 +30,12 @@
 #define HEADER_FORMAT_VERSION_MAJOR (2)
 #define HEADER_FORMAT_VERSION_MINOR (0)
 
-/** \addtogroup PIC32CM5164JH01100_definitions b'PIC32CM5164JH01100 definitions
+/** \addtogroup PIC32CM5164JH01100_definitions PIC32CM5164JH01100 definitions
   This file defines all structures and symbols for PIC32CM5164JH01100:
     - registers and bitfields
     - peripheral base address
     - peripheral ID
-    - PIO definitions'
+    - PIO definitions
  *  @{
  */
 
@@ -65,7 +65,7 @@
 #  define _UL_(x) x   /**< Assembler: Unsigned Long integer literal constant value */
 #endif /* !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
 #endif /* SKIP_INTEGER_LITERALS */
-/** @}  b'end of Atmel Global Defines' */
+/** @}  end of Atmel Global Defines */
 
 /* ************************************************************************** */
 /*   CMSIS DEFINITIONS FOR PIC32CM5164JH01100                                 */
@@ -252,7 +252,7 @@ void ICM_Handler                   ( void );
 #include "system_pic32cmjh01.h"
 #endif /* USE_CMSIS_INIT */
 
-/** \defgroup PIC32CM5164JH01100_api b'Peripheral Software API'
+/** \defgroup PIC32CM5164JH01100_api Peripheral Software API
  *  @{
  */
 
@@ -291,9 +291,9 @@ void ICM_Handler                   ( void );
 #include "component/tc.h"
 #include "component/tcc.h"
 #include "component/wdt.h"
-/** @}  b'end of Peripheral Software API' */
+/** @}  end of Peripheral Software API */
 
-/** \addtogroup PIC32CM5164JH01100_id b'Peripheral Ids Definitions'
+/** \addtogroup PIC32CM5164JH01100_id Peripheral Ids Definitions
  *  @{
  */
 
@@ -351,9 +351,9 @@ void ICM_Handler                   ( void );
 #define ID_TC7           (100) /**< \brief Instance index for TC7 (TC7) */
 
 #define ID_PERIPH_MAX    (100) /**< \brief Number of peripheral IDs */
-/** @}  b'end of Peripheral Ids Definitions' */
+/** @}  end of Peripheral Ids Definitions */
 
-/** \addtogroup PIC32CM5164JH01100_base b'Peripheral Base Address Definitions'
+/** \addtogroup PIC32CM5164JH01100_base Peripheral Base Address Definitions
  *  @{
  */
 
@@ -415,9 +415,9 @@ void ICM_Handler                   ( void );
 #define TCC2_REGS                        ((tcc_registers_t*)0x42002c00)                /**< \brief TCC2 Registers Address       */
 #define WDT_REGS                         ((wdt_registers_t*)0x40002000)                /**< \brief WDT Registers Address        */
 #endif /* (defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
-/** @}  b'end of Peripheral Base Address Definitions' */
+/** @}  end of Peripheral Base Address Definitions */
 
-/** \addtogroup PIC32CM5164JH01100_base b'Peripheral Base Address Definitions'
+/** \addtogroup PIC32CM5164JH01100_base Peripheral Base Address Definitions
  *  @{
  */
 
@@ -477,9 +477,9 @@ void ICM_Handler                   ( void );
 #define TCC1_BASE_ADDRESS                _UL_(0x42002800)                              /**< \brief TCC1 Base Address */
 #define TCC2_BASE_ADDRESS                _UL_(0x42002c00)                              /**< \brief TCC2 Base Address */
 #define WDT_BASE_ADDRESS                 _UL_(0x40002000)                              /**< \brief WDT Base Address */
-/** @}  b'end of Peripheral Base Address Definitions' */
+/** @}  end of Peripheral Base Address Definitions */
 
-/** \addtogroup PIC32CM5164JH01100_pio b'Peripheral Pio Definitions'
+/** \addtogroup PIC32CM5164JH01100_pio Peripheral Pio Definitions
  *  @{
  */
 
@@ -487,7 +487,7 @@ void ICM_Handler                   ( void );
 /*   PIO DEFINITIONS FOR PIC32CM5164JH01100                                   */
 /* ************************************************************************** */
 #include "pio/pic32cm5164jh01100.h"
-/** @}  b'end of Peripheral Pio Definitions' */
+/** @}  end of Peripheral Pio Definitions */
 
 /* ************************************************************************** */
 /*   MEMORY MAPPING DEFINITIONS FOR PIC32CM5164JH01100                        */
@@ -709,7 +709,7 @@ void ICM_Handler                   ( void );
 }
 #endif
 
-/** @}  b'end of PIC32CM5164JH01100 definitions' */
+/** @}  end of PIC32CM5164JH01100 definitions */
 
 
 #endif /* _PIC32CM5164JH01100_H_ */

@@ -134,13 +134,18 @@ void SYS_Initialize ( void* data )
     EVSYS_Initialize();
 
 	BSP_Initialize();
+    SERCOM4_USART_Initialize();
+
+    EIC_Initialize();
 
 
 
 
-    APP_Initialize();
-    APP1_Initialize();
-    APP2_Initialize();
+
+    TASK1_Initialize();
+    TASK2_Initialize();
+    TASK3_Initialize();
+    TASK4_Initialize();
 
 
     NVIC_Initialize();
