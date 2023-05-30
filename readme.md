@@ -1,5 +1,5 @@
 ﻿---
-title: Harmony 3 driver and system service application examples for PIC32CM JH00/JH01 family
+title: Harmony 3 driver and system service application examples for PIC32CM JH01 family
 nav_order: 1
 has_children: true
 has_toc: false
