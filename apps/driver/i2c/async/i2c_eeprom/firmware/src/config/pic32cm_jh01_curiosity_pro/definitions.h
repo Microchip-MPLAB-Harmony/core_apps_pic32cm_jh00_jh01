@@ -55,10 +55,10 @@
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "bsp/bsp.h"
-#include "driver/i2c/drv_i2c.h"
 #include "system/int/sys_int.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "driver/i2c/drv_i2c.h"
 #include "app.h"
 
 
@@ -72,13 +72,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "PIC32CM5164JH01100"
-#define DEVICE_ARCH			 "CORTEX-M0PLUS"
-#define DEVICE_FAMILY		 "PIC32CM"
-#define DEVICE_SERIES		 "PIC32CMJH01"
+#define DEVICE_NAME          "PIC32CM5164JH01100"
+#define DEVICE_ARCH          "CORTEX-M0PLUS"
+#define DEVICE_FAMILY        "PIC32CM"
+#define DEVICE_SERIES        "PIC32CMJH01"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 48000000
+#define CPU_CLOCK_FREQUENCY 48000000U
 
 // *****************************************************************************
 // *****************************************************************************
